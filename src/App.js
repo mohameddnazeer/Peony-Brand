@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import "swiper/swiper.min.css";
+// import "swiper/modules/navigation/navigation.min.css";
+// import "swiper/modules/pagination/pagination.min.css";
 
-function App() {
+import Header from "../src/components/Header";
+import HomeSection from "./components/HomeSection";
+import "./App.css";
+// import "../src/assets/css/swiper-bundle.min.css";
+// import "../src/assets/css/swiper-element-bundle.min.css";
+import ServicesSection from "./components/ServicesSection";
+import ProjectsSection from "./components/ProjectsSection";
+import Offers from "./components/Offers";
+import Testimonial from "./components/Testimonial";
+import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
+import ScrollToTopButton from "./components/ScrollToTopButton";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <HomeSection />
+      <ServicesSection />
+      <ProjectsSection />
+      <Offers />
+      <Testimonial />
+      <FAQ />
+      <Footer />
+      <ScrollToTopButton />
+      {/* Other components can be added here */}
     </div>
   );
-}
+};
 
 export default App;
