@@ -1551,3 +1551,7 @@ ul {
 a {
   text-decoration: none;
 }
+
+.dark-theme.nav img {
+  background-color: transparent;
+}

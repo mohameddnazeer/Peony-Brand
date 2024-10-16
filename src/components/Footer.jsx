@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer__container container">
-        <h1 className="footer__title">Peony</h1>
+        <h1 className="footer__title">Peony beauty</h1>
         <p>Natural Skincare Products</p>
         <ul className="footer__list">
           <li className="nav__item">
@@ -52,7 +52,7 @@ const Footer = () => {
           </a>
         </ul>
 
-        <span className="footer__copy">Copyright Peony &#169;2024.</span>
+        <span className="footer__copy">Copyright Peony beauty &#169;2024.</span>
       </div>
     </footer>
   );

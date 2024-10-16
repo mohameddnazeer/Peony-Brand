@@ -15,7 +15,7 @@ const ServicesSection = () => {
           <p className="services__description" style={{ direction: "rtl" }}>
             نؤمن بأهمية الاستدامة ونهدف إلى تقديم منتجات تعكس التزامنا بحماية
             البيئة. نستخدم مكونات محلية وطبيعية، ونعمل على تقليل الأثر البيئي في
-            جميع عملياتنا. اختر <span>[Peony]</span>
+            جميع عملياتنا. اختر <span>[Peony beauty]</span>
             لدعم العناية بالبشرة المسؤولة.
           </p>
 

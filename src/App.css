@@ -1584,3 +1584,15 @@ a {
 .react-multi-carousel-dot-list {
   margin-top: 150px !important;
 }
+
+.dark-theme .nav img,
+.dark-theme .nav ul,
+.dark-theme .nav li,
+.dark-theme .nav a,
+.dark-theme .nav i,
+.dark-theme .nav .nav__buttons {
+  background-color: transparent;
+}
+.react-multiple-carousel__arrow {
+  min-width: 0 !important;
+}
