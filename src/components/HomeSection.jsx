@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import img1 from "../assets/img/1.jpg";
-import img2 from "../assets/img/2.jpg";
-import img3 from "../assets/img/3.jpg";
-import img4 from "../assets/img/4.jpg";
-import img5 from "../assets/img/5.jpg";
-import img6 from "../assets/img/6.jpg";
-import img7 from "../assets/img/7.jpg";
+import img1 from "../assets/img/lotion1.jpg";
+// import img2 from "../assets/img/lotion2.jpg";
+import img3 from "../assets/img/lotion3.webp";
+import img4 from "../assets/img/lotionStick.webp";
+import img5 from "../assets/img/lotionStick2.webp";
+import img6 from "../assets/img/bodyButter.webp";
+import img7 from "../assets/img/bodyButter2.webp";
 // import "../index.css";
 // import "../App.css";
 const HomeSection = () => {
@@ -46,7 +46,7 @@ const HomeSection = () => {
         {/* Left Side: Image */}
         <div className="slideshow">
           <img src={img1} alt="Lotion Bar Image" />
-          <img src={img2} alt="Lotion Bar Image" />
+          {/* <img src={img2} alt="Lotion Bar Image" /> */}
           <img src={img3} alt="Lotion Bar Image" />
           <img src={img4} alt="Lotion Bar Image" />
           <img src={img5} alt="Lotion Bar Image" />
@@ -56,11 +56,11 @@ const HomeSection = () => {
 
         {/* Right Side: Text Content */}
         <div className="home__content">
-          <h1 className="home__title">Peony beauty</h1>
+          <h1 className="home__title" style={{color:"#99484d"}}>Peony beauty</h1>
           <p className="home__description">
-            مرحبًا بكم في <span>[Peony beauty]</span> – العناية الطبيعية ببشرتك.
+            مرحبًا بكم في <span style={{color:"#99484d"}}>[Peony beauty]</span> – العناية الطبيعية ببشرتك.
             في
-            <span>[Peony beauty]</span>، نؤمن بقوة الطبيعة في تغذية وحماية
+            <span style={{color:"#99484d"}}> [Peony beauty]</span>، نؤمن بقوة الطبيعة في تغذية وحماية
             بشرتك. تُصنع قضبان المستحضر ومنتجات العناية بالجسم المصنوعة يدويًا
             من مكونات طبيعية بالكامل، وهي مصممة لترطيب بشرتك وتهدئتها وتجديد
             شبابها دون استخدام مواد كيميائية قاسية.
@@ -73,12 +73,12 @@ const HomeSection = () => {
           </p>
           <p className="home__description">
             انضم إلينا في رحلتنا نحو الجمال الطبيعي وجرب الفرق الذي يمكن أن
-            يحدثه العناية بالبشرة النظيفة والصديقة للبيئة.
+            يحدثه العناية بالبشرة النظيفة والصديقة للبيئة,<strong style={{color:"#99484d"}}> للجميع، رجالًا ونساءً</strong>   
           </p>
 
           <ul className="home__social" style={{ direction: "rtl" }}>
             <a
-              href="https://web.facebook.com/"
+              href="https://www.instagram.com/peonybeauty.eg"
               target="_blank"
               rel="noopener noreferrer"
               className="home__social-link"
@@ -86,7 +86,7 @@ const HomeSection = () => {
               <i className="ri-instagram-line"></i>
             </a>
             <a
-              href="https://web.facebook.com/"
+              href="https://www.facebook.com/profile.php?id=61567468675793&mibextid=LQQJ4d"
               target="_blank"
               rel="noopener noreferrer"
               className="home__social-link"
@@ -94,12 +94,12 @@ const HomeSection = () => {
               <i className="ri-facebook-circle-line"></i>
             </a>
             <a
-              href="https://web.facebook.com/"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="home__social-link"
             >
-              <i className="ri-whatsapp-line"></i>
+              <i className="ri-twitter-line"></i>
             </a>
           </ul>
         </div>

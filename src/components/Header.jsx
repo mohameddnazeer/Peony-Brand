@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from "../assets/img/logo-removebg.png";
+import logo from "../assets/img/logo__1_-removebg-preview.png";
 
 const Header = () => {
   useEffect(() => {
@@ -64,15 +64,17 @@ const Header = () => {
   return (
     <header className="header" id="header">
       <nav className="nav container">
+        <div className="" style={{ width:"100px"}}>
         <img
           src={logo}
           alt="Logo"
-          style={{ maxWidth: "120px", height: "100%" }}
+          style={{ maxWidth: "100%", objectFit:'cover', backgroundColor:"transparent"}}
         />
+        </div>
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="#home" className="nav__link active-link">
+              <a href="#home" className="nav__link       ">
                 <i className="ri-home-4-line"></i> الرئيسية
               </a>
             </li>

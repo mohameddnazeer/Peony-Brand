@@ -286,7 +286,7 @@ body.dark-theme {
 }
 
 .nav__link:hover {
-  color: var(--title-color);
+  color: #99484d;
 }
 
 .nav__list i {
@@ -310,7 +310,7 @@ body.dark-theme {
 
 /* Active link */
 .active-link {
-  color: var(--title-color);
+  color: #99484d;
 }
 
 /*=============== HOME ===============*/
@@ -561,7 +561,7 @@ body.dark-theme {
   height: 322px; */
   background-color: var(--container-color);
   text-align: center;
-  padding: 3.5rem 1rem;
+  /* padding: 1.5rem 1rem; */
   border-radius: 7.25rem;
   transition: background 0.4s; /*for dark mode animation */
   margin: 0 auto;
@@ -577,7 +577,7 @@ body.dark-theme {
   display: block;
   font-size: 2rem;
   color: var(--title-color);
-  margin-bottom: 0.75rem;
+  /* margin-bottom: 0.75rem; */
   transition: transform 0.8s;
 }
 
@@ -614,13 +614,15 @@ body.dark-theme {
 }
 
 .projects__subtitle {
-  font-size: var(--small-font-size);
+  font-size: var(--h2-font-size);
   color: var(--text-color-light);
 }
 .projects__title {
-  font-size: var(--h2-font-size);
+  font-size: var(--small-font-size);
   margin-bottom: 1.25rem;
-  margin: 0.5rem 0 1.25rem;
+  margin: 0.2rem 0 1.25rem;
+  max-width: 300px;
+  direction: rtl;
 }
 .projects__button {
   display: inline-flex;
@@ -1238,7 +1240,7 @@ body.dark-theme {
     width: 245px;
     height: 345px;
     border-radius: 7.6rem;
-    padding: 3.5rem 1.5rem;
+    padding: 1.5rem 1.5rem;
   }
   .services__card i {
     font-size: 2.5rem;
@@ -1464,7 +1466,7 @@ body.dark-theme {
 .offers__button {
   color: white;
   border: none;
-  background-color: #646463;
+  background-color: #99484d !important;
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
@@ -1595,4 +1597,20 @@ a {
 }
 .react-multiple-carousel__arrow {
   min-width: 0 !important;
+  background-color: transparent !important;
+ 
+}
+
+.react-multiple-carousel__arrow::before{
+  color: black !important;
+  font-size:  20px !important;
+}
+.nav img{
+  background-color: transparent;
+}
+a{
+  text-decoration: none !important;
+}
+ul{
+  padding-left: 0 !important;
 }
