@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6420a0f.css",
-    "main.js": "/static/js/main.13c6ddf5.js",
+    "main.css": "/static/css/main.d7adc83d.css",
+    "main.js": "/static/js/main.0473c133.js",
     "static/js/453.809111d8.chunk.js": "/static/js/453.809111d8.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/bodyButter.webp": "/static/media/bodyButter.0fbc99df96b061199e3d.webp",
     "static/media/lotion1.jpg": "/static/media/lotion1.15e7fe3ab7e2bbd9b70e.jpg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/feedback1.jpg": "/static/media/feedback1.eaebfac4ba18a4020589.jpg",
+    "static/media/logo22.png": "/static/media/logo22.7916b855ecfb760e3ef5.png",
+    "static/media/feedback1.jpg": "/static/media/feedback1.bc7c55262e37424de318.jpg",
     "static/media/lotionStick2.webp": "/static/media/lotionStick2.924d328328786e8e7a23.webp",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/logo__1_-removebg-preview.png": "/static/media/logo__1_-removebg-preview.a0d7b7e5866b569cc0fc.png",
     "static/media/feedback3.jpg": "/static/media/feedback3.8b9b8606cc28bd688430.jpg",
     "static/media/1.jpg": "/static/media/1.5cdea8190fccc4140885.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
@@ -23,12 +23,12 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/lotionStick.webp": "/static/media/lotionStick.301ae53d373f34de3c3b.webp",
     "index.html": "/index.html",
-    "main.b6420a0f.css.map": "/static/css/main.b6420a0f.css.map",
-    "main.13c6ddf5.js.map": "/static/js/main.13c6ddf5.js.map",
+    "main.d7adc83d.css.map": "/static/css/main.d7adc83d.css.map",
+    "main.0473c133.js.map": "/static/js/main.0473c133.js.map",
     "453.809111d8.chunk.js.map": "/static/js/453.809111d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6420a0f.css",
-    "static/js/main.13c6ddf5.js"
+    "static/css/main.d7adc83d.css",
+    "static/js/main.0473c133.js"
   ]
 }
