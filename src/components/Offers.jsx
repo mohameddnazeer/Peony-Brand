@@ -27,7 +27,7 @@ const Offers = () => {
 
   return (
     <section className="offers" id="offers">
-      <h2 className="offers__title" style={{color:"#99484d"}}>عروض خاصة</h2>
+      <h2 className="offers__title">عروض خاصة</h2>
       <div className="offers__container container section__border">
         {offers.map((offer) => (
           <div className="offers__card" key={offer.id}>
@@ -44,7 +44,7 @@ const Offers = () => {
               target="_blank" // Open link in a new tab
               rel="noopener noreferrer" // Security best practice
             >
-              تواصل معنا 
+              تواصل معنا
             </a>
           </div>
         ))}

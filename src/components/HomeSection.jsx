@@ -56,14 +56,17 @@ const HomeSection = () => {
 
         {/* Right Side: Text Content */}
         <div className="home__content">
-          <h1 className="home__title" style={{color:"#99484d"}}>Peony beauty</h1>
+          <h1 className="home__title" style={{ color: "#99484d" }}>
+            Peony beauty
+          </h1>
           <p className="home__description">
-            مرحبًا بكم في <span style={{color:"#99484d"}}>[Peony beauty]</span> – العناية الطبيعية ببشرتك.
-            في
-            <span style={{color:"#99484d"}}> [Peony beauty]</span>، نؤمن بقوة الطبيعة في تغذية وحماية
-            بشرتك. تُصنع قضبان المستحضر ومنتجات العناية بالجسم المصنوعة يدويًا
-            من مكونات طبيعية بالكامل، وهي مصممة لترطيب بشرتك وتهدئتها وتجديد
-            شبابها دون استخدام مواد كيميائية قاسية.
+            مرحبًا بكم في{" "}
+            <span style={{ color: "#99484d" }}>[Peony beauty]</span> – العناية
+            الطبيعية ببشرتك. في
+            <span style={{ color: "#99484d" }}> [Peony beauty]</span>، نؤمن بقوة
+            الطبيعة في تغذية وحماية بشرتك. تُصنع قضبان المستحضر ومنتجات العناية
+            بالجسم المصنوعة يدويًا من مكونات طبيعية بالكامل، وهي مصممة لترطيب
+            بشرتك وتهدئتها وتجديد شبابها دون استخدام مواد كيميائية قاسية.
           </p>
 
           <p className="home__description">
@@ -73,7 +76,8 @@ const HomeSection = () => {
           </p>
           <p className="home__description">
             انضم إلينا في رحلتنا نحو الجمال الطبيعي وجرب الفرق الذي يمكن أن
-            يحدثه العناية بالبشرة النظيفة والصديقة للبيئة,<strong style={{color:"#99484d"}}> للجميع، رجالًا ونساءً</strong>   
+            يحدثه العناية بالبشرة النظيفة والصديقة للبيئة,
+            <strong style={{ color: "#99484d" }}> للجميع، رجالًا ونساءً</strong>
           </p>
 
           <ul className="home__social" style={{ direction: "rtl" }}>
@@ -94,7 +98,7 @@ const HomeSection = () => {
               <i className="ri-facebook-circle-line"></i>
             </a>
             <a
-              href=""
+              href="https://x.com/peonybeaut45301?s=21&t=N6BfgpbP7WCPU11xqFL_3w"
               target="_blank"
               rel="noopener noreferrer"
               className="home__social-link"

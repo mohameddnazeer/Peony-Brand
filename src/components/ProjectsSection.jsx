@@ -13,6 +13,7 @@ const ProjectsSection = ({ deviceType }) => {
       id: 1,
       image: img1,
       subtitle: "Lotion Bar",
+      price: 220,
       description:
         "تتميز بقوامها الصلب وتُستخدم لترطيب البشرة بعمق. تذوب عند ملامستها للجلد، مما يجعلها مثالية للاستخدام المنزلي لترطيب المناطق الكبيرة. ممتازة للأشخاص الذين يفضلون المنتجات الطبيعية والبسيطة.",
     },
@@ -20,6 +21,7 @@ const ProjectsSection = ({ deviceType }) => {
       id: 2,
       image: img2,
       subtitle: "Lotion Stick",
+      price: 220,
       description:
         "تشبه قضبان المستحضر لكن تأتي في عبوة مريحة وسهلة الاستخدام. مثالية للأشخاص أثناء التنقل، فهي تُطبق مباشرة على البشرة دون الحاجة للمس المنتج باليد، مما يجعلها أكثر نظافة ودقة في التطبيق.",
     },
@@ -27,6 +29,7 @@ const ProjectsSection = ({ deviceType }) => {
       id: 3,
       image: img3,
       subtitle: "Body Butter",
+      price: 220,
       description:
         "مستحضر كريمي سميك يقدم ترطيبًا مكثفًا وطويل الأمد. يُستخدم عادة بعد الاستحمام أو قبل النوم لتهدئة البشرة الجافة والمتهيجة. يُعتبر الخيار الأفضل لمن يعانون من جفاف شديد ويريدون تغذية عميقة للبشرة.",
     },
@@ -53,8 +56,8 @@ const ProjectsSection = ({ deviceType }) => {
 
   return (
     <section className="projects section" id="projects">
-      <h2 className="section__title" style={{ color: "#99484d" }}>المنتجات</h2>
-      <span className="section__subtitle" style={{ color: "#99484d" }}>الأكثر مبيعاً</span>
+      <h2 className="section__title">المنتجات</h2>
+      <span className="section__subtitle">الأكثر مبيعاً</span>
 
       <div className="container section__border">
         <Carousel
@@ -65,12 +68,12 @@ const ProjectsSection = ({ deviceType }) => {
           ssr={true} // Server-side rendering for better performance
           infinite={true}
           autoPlay={deviceType !== "mobile"}
-          autoPlaySpeed={2000}
+          autoPlaySpeed={4000}
           keyBoardControl={true}
           customTransition="all .5"
           transitionDuration={500}
           containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
+          // removeArrowOnDeviceType={["tablet", "mobile"]}
           deviceType={deviceType}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
@@ -84,12 +87,27 @@ const ProjectsSection = ({ deviceType }) => {
                 style={{ width: "300px", height: "300px" }}
               />
               <div>
-                <span className="projects__subtitle" style={{ color: "#99484d" }}>
-                  {project.subtitle}
-                </span>
-                <h1 className="projects__title">
-                  {project.description}
-                </h1>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <span
+                    className="projects__subtitle"
+                    style={{ color: "#99484d" }}
+                  >
+                    {project.subtitle}
+                  </span>
+                  <span
+                    className="projects__subtitle"
+                    style={{ color: "#99484d" }}
+                  >
+                    ج.م {project.price}
+                  </span>
+                </div>
+                <h1 className="projects__title">{project.description}</h1>
               </div>
             </div>
           ))}
