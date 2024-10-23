@@ -42,7 +42,7 @@ const Footer = () => {
             <i className="ri-facebook-circle-line"></i>
           </a>
           <a
-            href=""
+            href="https://x.com/peonybeaut45301?s=21&t=N6BfgpbP7WCPU11xqFL_3w"
             target="_blank"
             rel="noopener noreferrer"
             className="home__social-link"

@@ -31,6 +31,7 @@ const Testimonial = () => {
         <Carousel
           responsive={responsive}
           infinite={true}
+          showDots={true}
           className="testimonial__container"
         >
           {/*==================== TESTIMONIAL 1 ====================*/}
