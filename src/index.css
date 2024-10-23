@@ -176,7 +176,10 @@ body.dark-theme {
 .dark-theme a {
   color: var(--text-color);
 }
-.dark-theme * {
+.dark-theme footer {
+  background-color: hsl(200, 4%, 14%);
+}
+.dark-theme section {
   background-color: hsl(200, 4%, 14%);
 }
 
@@ -499,7 +502,7 @@ body.dark-theme {
 
 .services__card {
   position: relative;
-  width: 650px !important;
+  width: 610px !important;
   height: 322px;
   background-color: var(--container-color);
   text-align: center;
@@ -1205,7 +1208,7 @@ body.dark-theme {
     bottom: 5rem;
   }
   .services__container {
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(2, max-content);
   }
   .services__card {
     width: 245px;

@@ -24,7 +24,10 @@ const Footer = () => {
           </li>
         </ul>
 
-        <ul className="footer__social">
+        <ul
+          className="footer__social"
+          style={{ marginTop: "15px", direction: "rtl" }}
+        >
           <a
             href="https://www.instagram.com/peonybeauty.eg"
             target="_blank"

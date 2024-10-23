@@ -36,16 +36,31 @@ const Testimonial = () => {
         >
           {/*==================== TESTIMONIAL 1 ====================*/}
           <div className="testimonial__content">
-            <img src={img1} alt="feedback" className="testimonial__image" />
+            <img
+              src={img1}
+              alt="feedback"
+              className="testimonial__image"
+              style={{ marginBottom: "20px" }}
+            />
           </div>
 
           {/*==================== TESTIMONIAL 2 ====================*/}
           <div className="testimonial__content">
-            <img src={img2} alt="feedback" className="testimonial__image" />
+            <img
+              src={img2}
+              alt="feedback"
+              className="testimonial__image"
+              style={{ marginBottom: "20px", paddingTop: "70px" }}
+            />
           </div>
           {/*==================== TESTIMONIAL 3 ====================*/}
           <div className="testimonial__content">
-            <img src={img3} alt="feedback" className="testimonial__image" />
+            <img
+              src={img3}
+              alt="feedback"
+              className="testimonial__image"
+              style={{ marginBottom: "20px" }}
+            />
           </div>
         </Carousel>
       </div>

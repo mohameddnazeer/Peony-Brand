@@ -906,6 +906,7 @@ body.dark-theme {
   font-size: var(--h1-font-size);
   font-weight: var(--font-semi-bold);
   margin-bottom: 1rem;
+  color: #99484d;
 }
 
 .footer__list,
@@ -1246,7 +1247,7 @@ body.dark-theme {
     bottom: 5rem;
   }
   .services__container {
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(2, max-content);
   }
   .services__card {
     width: 245px;
@@ -1438,6 +1439,7 @@ body.dark-theme {
 .offers__title {
   font-size: 2rem;
   margin-bottom: 20px;
+  color: #99484d;
 }
 .offers__container {
   display: flex;
