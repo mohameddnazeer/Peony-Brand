@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d7adc83d.css",
-    "main.js": "/static/js/main.77a96696.js",
+    "main.js": "/static/js/main.902e9137.js",
     "static/js/453.809111d8.chunk.js": "/static/js/453.809111d8.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/-removebg-preview.png": "/static/media/5837107838462314205-removebg-preview.366b3deba5efbe600eab.png",
     "static/media/bodyButter.webp": "/static/media/bodyButter.0fbc99df96b061199e3d.webp",
     "static/media/lotion1.jpg": "/static/media/lotion1.15e7fe3ab7e2bbd9b70e.jpg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -25,11 +26,11 @@
     "static/media/lotionStick.webp": "/static/media/lotionStick.301ae53d373f34de3c3b.webp",
     "index.html": "/index.html",
     "main.d7adc83d.css.map": "/static/css/main.d7adc83d.css.map",
-    "main.77a96696.js.map": "/static/js/main.77a96696.js.map",
+    "main.902e9137.js.map": "/static/js/main.902e9137.js.map",
     "453.809111d8.chunk.js.map": "/static/js/453.809111d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7adc83d.css",
-    "static/js/main.77a96696.js"
+    "static/js/main.902e9137.js"
   ]
 }
