@@ -47,12 +47,12 @@ const Offers = () => {
       <div className="offers__container container section__border">
         {offers.map((offer) => (
           <div className="offers__card" key={offer.id}>
-            <img
+            {/* <img
               src={offer.image}
               alt={`Product ${offer.id}`}
               className="offers__image"
-            />
-            <p className="offers__price">{offer.price}</p>
+            /> */}
+            {/* <p className="offers__price">{offer.price}</p> */}
             <p className="offers__description">{offer.description}</p>
             <a
               href={handleFacebookLink(offer.id)}

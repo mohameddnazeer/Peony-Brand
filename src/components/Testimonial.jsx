@@ -34,16 +34,16 @@ const Testimonial = () => {
           showDots={true}
           className="testimonial__container"
         >
-          {/*==================== TESTIMONIAL 1 ====================*/}
-          <div className="testimonial__content">
+          
+{/*==================== TESTIMONIAL 3 ====================*/}
+<div className="testimonial__content">
             <img
-              src={img1}
+              src={img3}
               alt="feedback"
               className="testimonial__image"
               style={{ marginBottom: "20px" }}
             />
           </div>
-
           {/*==================== TESTIMONIAL 2 ====================*/}
           <div className="testimonial__content">
             <img
@@ -53,10 +53,11 @@ const Testimonial = () => {
               style={{ marginBottom: "20px", paddingTop: "70px" }}
             />
           </div>
-          {/*==================== TESTIMONIAL 3 ====================*/}
+          
+          {/*==================== TESTIMONIAL 1 ====================*/}
           <div className="testimonial__content">
             <img
-              src={img3}
+              src={img1}
               alt="feedback"
               className="testimonial__image"
               style={{ marginBottom: "20px" }}

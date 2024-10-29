@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import img1 from "../assets/img/lotion3.webp";
 import img2 from "../assets/img/lotionStick.webp";
 import img3 from "../assets/img/bodyButter.webp";
+import img4 from "../assets/img/libbalm2.jpg";
 
 const ProjectsSection = ({ deviceType }) => {
   // Define an array for the project items
@@ -33,6 +34,13 @@ const ProjectsSection = ({ deviceType }) => {
       description:
         "مستحضر كريمي سميك يقدم ترطيبًا مكثفًا وطويل الأمد. يُستخدم عادة بعد الاستحمام أو قبل النوم لتهدئة البشرة الجافة والمتهيجة. يُعتبر الخيار الأفضل لمن يعانون من جفاف شديد ويريدون تغذية عميقة للبشرة.",
     },
+    {
+      id: 4,
+      image: img4,
+      subtitle: "Lip Balm",
+      price: 220,
+      description: "ترطيب وحماية الشفاه من الجفاف والتشقق، مع مكونات مهدئة تغذي الشفاه بعمق."
+    }
   ];
 
   const responsive = {
@@ -104,7 +112,7 @@ const ProjectsSection = ({ deviceType }) => {
                     className="projects__subtitle"
                     style={{ color: "#99484d" }}
                   >
-                    ج.م {project.price}
+                    {/* ج.م {project.price} */}
                   </span>
                 </div>
                 <h1 className="projects__title">{project.description}</h1>
