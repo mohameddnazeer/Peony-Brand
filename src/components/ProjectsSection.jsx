@@ -2,10 +2,13 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import img1 from "../assets/img/lotion3.webp";
-import img2 from "../assets/img/lotionStick.webp";
-import img3 from "../assets/img/bodyButter.webp";
+import img1 from "../assets/img/5837107838462314196-removebg-preview.png";
+// import img2 from "../assets/img/lotionStick.webp";
+// import img3 from "../assets/img/bodyButter.webp";
 import img4 from "../assets/img/libbalm2.jpg";
+import img2 from "../assets/img/5837107838462314205-removebg-preview.png";
+import img3 from "../assets/img/5837107838462314200-removebg-preview.png";
+// import img4 from "../assets/img/5837107838462314200-removebg-preview.png";
 
 const ProjectsSection = ({ deviceType }) => {
   // Define an array for the project items
