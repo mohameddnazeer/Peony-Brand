@@ -16,34 +16,64 @@ const ProjectsSection = ({ deviceType }) => {
     {
       id: 1,
       image: img1,
-      subtitle: "Lotion Bar",
-      price: 220,
+      subtitle: "Lotion Bar 90g",
+      price: 235,
+      realPrice: 260,
+      hint: "",
+      description:
+        "تتميز بقوامها الصلب وتُستخدم لترطيب البشرة بعمق. تذوب عند ملامستها للجلد، مما يجعلها مثالية للاستخدام المنزلي لترطيب المناطق الكبيرة. ممتازة للأشخاص الذين يفضلون المنتجات الطبيعية والبسيطة.",
+    },
+    {
+      id: 6,
+      image: img1,
+      subtitle: "Lotion Bar 60g",
+      price: 185,
+      realPrice: 210,
+      hint: "",
       description:
         "تتميز بقوامها الصلب وتُستخدم لترطيب البشرة بعمق. تذوب عند ملامستها للجلد، مما يجعلها مثالية للاستخدام المنزلي لترطيب المناطق الكبيرة. ممتازة للأشخاص الذين يفضلون المنتجات الطبيعية والبسيطة.",
     },
     {
       id: 2,
       image: img2,
-      subtitle: "Lotion Stick",
-      price: 220,
+      subtitle: "Lotion Stick 30g",
+      price: 155,
+      realPrice: 180,
+      hint: "",
       description:
         "تشبه قضبان المستحضر لكن تأتي في عبوة مريحة وسهلة الاستخدام. مثالية للأشخاص أثناء التنقل، فهي تُطبق مباشرة على البشرة دون الحاجة للمس المنتج باليد، مما يجعلها أكثر نظافة ودقة في التطبيق.",
     },
     {
       id: 3,
       image: img3,
-      subtitle: "Body Butter",
-      price: 220,
+      subtitle: "Body Butter 125g",
+      price: 250,
+      realPrice: 275,
+      hint: "(Magical Whipped Body Butter) 125g",
       description:
-        "مستحضر كريمي سميك يقدم ترطيبًا مكثفًا وطويل الأمد. يُستخدم عادة بعد الاستحمام أو قبل النوم لتهدئة البشرة الجافة والمتهيجة. يُعتبر الخيار الأفضل لمن يعانون من جفاف شديد ويريدون تغذية عميقة للبشرة.",
+        "(Magical Whipped Body Butter) مستحضر كريمي سميك يقدم ترطيبًا مكثفًا وطويل الأمد. يُستخدم عادة بعد الاستحمام أو قبل النوم لتهدئة البشرة الجافة والمتهيجة. يُعتبر الخيار الأفضل لمن يعانون من جفاف شديد ويريدون تغذية عميقة للبشرة.",
     },
     {
       id: 4,
+      image: img3,
+      subtitle: "Body Butter 25g",
+      hint: "(Magical Whipped Body Butter) 25g",
+      price: 80,
+      realPrice: 95,
+      hint: "",
+      description:
+        "(Magical Whipped Body Butter) مستحضر كريمي سميك يقدم ترطيبًا مكثفًا وطويل الأمد. يُستخدم عادة بعد الاستحمام أو قبل النوم لتهدئة البشرة الجافة والمتهيجة. يُعتبر الخيار الأفضل لمن يعانون من جفاف شديد ويريدون تغذية عميقة للبشرة.",
+    },
+    {
+      id: 5,
       image: img4,
       subtitle: "Lip Balm",
-      price: 220,
-      description: "ترطيب وحماية الشفاه من الجفاف والتشقق، مع مكونات مهدئة تغذي الشفاه بعمق."
-    }
+      price: 35,
+      realPrice: 45,
+      hint: "",
+      description:
+        "ترطيب وحماية الشفاه من الجفاف والتشقق، مع مكونات مهدئة تغذي الشفاه بعمق.",
+    },
   ];
 
   const responsive = {
@@ -78,7 +108,7 @@ const ProjectsSection = ({ deviceType }) => {
           showDots={true}
           ssr={true} // Server-side rendering for better performance
           infinite={true}
-          autoPlay={deviceType !== "mobile"}
+          // autoPlay={deviceType !== "mobile"}
           autoPlaySpeed={4000}
           keyBoardControl={true}
           customTransition="all .5"
@@ -105,18 +135,43 @@ const ProjectsSection = ({ deviceType }) => {
                     justifyContent: "space-between",
                   }}
                 >
-                  <span
-                    className="projects__subtitle"
-                    style={{ color: "#99484d" }}
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      flexDirection: "column",
+                    }}
                   >
-                    {project.subtitle}
-                  </span>
-                  <span
-                    className="projects__subtitle"
-                    style={{ color: "#99484d" }}
+                    <span
+                      className="projects__subtitle"
+                      style={{ color: "#99484d" }}
+                    >
+                      {project.subtitle}
+                    </span>
+                    {/* <span className="" style={{ color: "#99484d" }}>
+                      {project.hint}
+                    </span> */}
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      flexDirection: "column",
+                    }}
                   >
-                    {/* ج.م {project.price} */}
-                  </span>
+                    <del
+                      className=""
+                      style={{ color: "#99484d", marginRight: "10px" }}
+                    >
+                      ج.م {project.realPrice}
+                    </del>
+                    <span
+                      className="projects__subtitle"
+                      style={{ color: "#99484d" }}
+                    >
+                      ج.م {project.price}
+                    </span>
+                  </div>
                 </div>
                 <h1 className="projects__title">{project.description}</h1>
               </div>
